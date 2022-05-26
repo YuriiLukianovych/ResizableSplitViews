@@ -1,0 +1,19 @@
+.wrapper {
+    display: flex;
+}
+
+.left {
+    background-color: rgb(58, 58, 238);
+    height: 100px;
+}
+
+.right {
+    background-color: rgb(246, 255, 0);
+    height: 100px;
+
+    flex: 1 1 0%;
+}
+.resizer {
+    width: 5px;
+    background-color: red;
+}
